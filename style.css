@@ -1,16 +1,79 @@
 /* Type your code here */
+body {
+  /* background-image: url(/lab-cricpro-scoreboard/assets/background-image1.png); */
+  font-family: sans-serif;
+  padding: 3%;
+  margin: auto;
+  font-size: 15px;
+  height: fit-content;
+  min-height: 48em;
+}
 
+#image {
+  position: absolute;
+  z-index: -1;
+  width: 65%;
+  margin-left: 500px;
+  margin-top: 100px;
+}
+
+#first {
+  margin-left: 1100px;
+  height: 4%;
+  width: 10%;
+  padding-top: 25px;
+}
+
+h1 {
+  font-size: 30px;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: lighter;
+  color:gray;
+  margin-top: -20px;
+}
+
+td:nth-child(4) {
+  padding-right: 3px;
+}
+
+a {
+  text-decoration: none;
+  color:blue;
+}
+
+.head {
+  background-color: orangered;
+  color: whitesmoke;
+}
+
+.head1 {
+  text-align: left;
+}
+#india {
+  text-align: left;
+  justify-content: start;
+}
+td {
+  padding: 8px;
+}
+table {
+  background-color: white;
+  border: 2px;
+  border-style: solid;
+  border-color: gray;
+}
+tr {
+  border: px solid black;
+  padding: 1px;
+}
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+.ft {
+  position: absolute;
+  margin-top: -50%;
 }
